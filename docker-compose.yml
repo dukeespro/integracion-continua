@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  webfrontend:
+    container_name: webfrontend
+    restart: always
+    build:
+      dockerfile: jardin_infantil/Dockerfile
+    ports:
+      - "8080:80"
+
+  db:
+    container_name: db
+    image: docker.io/library/mysql:8.0
+    cap_add:
+      - SYS_NICE
+    restart: always
+    environment:
+      - MYSQL_DATABASE=jardin_infantil
+      - MYSQL_ROOT_PASSWORD=mauFJcuf5dhRMQrjj
+    volumes:
+      - ./db:/var/lib/mysql:rw
+
+volumes:
+  db:
+    driver: local

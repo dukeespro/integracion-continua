@@ -5,6 +5,10 @@ Este es un proyecto para la clase de integración continua de la universidad Pol
 ## Integrantes
 Luis Eduardo Cuellar Rubio
 
+## Video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2Im_Dz_BSbU/0.jpg)](https://www.youtube.com/watch?v=2Im_Dz_BSbU)
+
+
 ## Requerimientos
 - Un computador con Docker instalado, puede ser Windows, Linux o MacOS.
 - Tener instalado Docker-compose.

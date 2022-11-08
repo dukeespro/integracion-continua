@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Proyecto de integracion continua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukeespro/integracion-continua.git"
+  },
+  "keywords": [
+    "API",
+    "Mongo"
+  ],
+  "author": "Luis Cuellar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukeespro/integracion-continua/issues"
+  },
+  "homepage": "https://github.com/dukeespro/integracion-continua#readme",
+  "dependencies": {
+    "next": "^13.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

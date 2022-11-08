@@ -18,6 +18,10 @@ Luis Eduardo Cuellar Rubio
 
 ![Arquitectura de contenedores](https://i.ibb.co/cFDQYkT/integracion-continua-drawio.png)
 
+## Proyecto seleccionado
+
+Se va a crear un CRUD con **NextJS** de Frontend y una base de datos NoSQL con **MongoDB**. Tambien hay un administrador de la base de datos con el fin de mostrar como se puede integrar uno más contenedores.
+
 ## Correr el programa
 
 - Primero debemos clonar el repositorio.
